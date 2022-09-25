@@ -7,9 +7,9 @@ import Address from './Component/Profil/Address';
 function App() {
   return (
     <div className="App">
-      <ProfilePhoto/>
-      <FullName/>
-      <Address/>
+      <ProfilePhoto image="./profil.jpg"/>
+      <FullName fullName="Ngarison"/>
+      <Address adresse="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
     </div>
   );
 }

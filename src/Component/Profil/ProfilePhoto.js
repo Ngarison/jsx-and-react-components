@@ -1,7 +1,11 @@
-function ProfilePhoto() {
+
+
+
+
+const ProfilePhoto= (props)=> {
     return (
       <div>
-        <img src="./profil.jpg" className="image" alt="Ma photo de Profil"/>
+        <img src={props.image} className="image" alt="Ma photo de Profil"/>
       </div>
     );
   }

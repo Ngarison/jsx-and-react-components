@@ -1,8 +1,10 @@
-function FullName() {
-    let fullName="Ngarison";
+
+
+const FullName = (props)=> {
+    //let fullName="Ngarison";
     return (
       <div className="fullName">
-        {fullName}
+        {props.fullName}
       </div>
     );
   }

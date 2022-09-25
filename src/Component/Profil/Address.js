@@ -1,9 +1,9 @@
 
-function Address() {
-    let adress="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+const Address = (props)=> {
+    //let adress="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
     return (
       <div className="adresse">
-        {adress}
+        {props.adresse}
       </div>
     );
   }
